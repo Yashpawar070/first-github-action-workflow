@@ -1,0 +1,13 @@
+ name: yash pawar
+
+ on: 
+   push:
+   branches: [ main ]
+
+   jobs:
+     demo:
+     run-on: ubuntu-letest
+
+     steps: 
+       name: first-steps
+       run: echo"HELLOW YASH"
