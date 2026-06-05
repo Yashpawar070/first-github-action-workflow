@@ -6,8 +6,8 @@
 
    jobs:
      demo:
-     run-on: ubuntu-letest
+     runs-on: ubuntu-latest
 
      steps: 
-       name: first-steps
+       -name: first-steps
        run: echo"HELLOW YASH"
